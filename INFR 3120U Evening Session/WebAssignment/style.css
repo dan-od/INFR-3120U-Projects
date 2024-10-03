@@ -1,0 +1,102 @@
+/* Import the Montserrat font from Google Fonts */
+@import "https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap";
+
+/* Reset default browser styles and set a background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styles for the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling for the main content section */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Media queries for different viewports */
+@media screen and (max-width: 768px) {
+    /* Styles for tablets */
+    header {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for mobile phones */
+    header {
+        font-size: 16px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 5px;
+    }
+}
+
+/* Linear gradient background for the body */
+body {
+    background: linear-gradient(45deg, rgba(133, 28, 38, 0.849), rgb(7, 51, 133));
+}
+
+/* Angle linear gradient in a specific div with custom text color */
+div.gradient-box {
+    background: linear-gradient(135deg, #06f, #f69);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Custom color scheme for links */
+a {
+    color: #FF585D;
+}
+
+/* Styling for headings */
+h1, h2 {
+    color: #474747;
+}

@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #800080; /* Purple */
+    --highlight-color: #FFC0CB; /* Pink */
+    --lowlight-color: #00BFFF; /* Bluewater */
+}
+  
+
+body {
+    background-color: var(--primary-color);
+    color: var(--lowlight-color);
+}
+  
+.btn-primary {
+    background-color: var(--highlight-color);
+    border-color: var(--lowlight-color);
+}
+  
+.btn-primary:hover {
+    background-color: var(--lowlight-color);
+    border-color: var(--highlight-color);
+}
+  

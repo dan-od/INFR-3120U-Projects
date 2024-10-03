@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information about the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Your Name - Contact Me</title>
+    <!-- Linking an external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <!-- List item 1 - Home page link -->
+                <li><a href="index.html">Home</a></li>
+                <!-- List item 2 - About Me page link -->
+                <li><a href="about.html">About Me</a></li>
+                <!-- List item 3 - Projects page link -->
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content section -->
+    <main>
+        <!-- Article containing a heading and a contact form -->
+        <article>
+            <h1>Contact Me</h1>
+            <!-- Contact form with input fields and labels -->
+            <form action="mailto:daniel.okoro@ontariotechu.net" method="post">
+                <!-- Label and input field for Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <!-- Label and input field for Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <!-- Label and input field for Cell No. with a pattern -->
+                <label for="phone">Cell No.:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                
+                <!-- Label and textarea for Comments -->
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+                
+                <!-- Submit button to send the form -->
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <!-- Contact email -->
+        <p>Contact Email: daniel.okoro@ontariotechu.net</p>
+        <!-- Copyright notice -->
+        <p>&copy; 2023 Okoro Daniel</p>
+    </footer>
+</body>
+</html>
